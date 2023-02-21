@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800;9..144,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner {
+    height: 100vh;
+    display: flex;
+    width: 1348px;
+
+    justify-content: flex-end;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner img {
+    width: 61%;
+    height: 100vh;
+    background: center;
+    object-fit: cover;
+}
+
+.left {
+    width: 39%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1a4742;
+    padding-left: 81px;
+}
+
+h2 {
+    font-size: 60px;
+    color: white;
+    font-family: "Fraunces";
+
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    display: inline-block;
+    position: relative;
+    font-family: "Montserrat";
+    bottom: 14px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 105px;
+    color: white;
+    cursor: pointer;
+    font-family: "Montserrat";
+}
+
+.nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px 0 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Montserrat";
+}
+
+.nav a:hover {
+    color: #a2ff77;
+}
+
+.btns button {
+    width: 91px;
+    border: none;
+    height: 37px;
+    cursor: pointer;
+    font-family: "Montserrat";
+    border-radius: 11px;
+}
+
+.butt {
+    background-color: #a2ff77;
+    margin-left: 14px;
+}
+
+.toto:hover {
+    background-color: #a2ff77;
+}
+
+.butt:hover {
+    background-color: white;
+}
+
+p {
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 26px;
+    margin-top: 20px;
+    color: white;
+}
+
+.start {
+    
+    width: 188px;
+    border: none;
+    height: 54px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+    position: relative;
+    background-color: #a2ff77;
+    top: 37px;
+    font-family: "Montserrat";
+    border-radius: 15px;
+    color: #3b3b3b;
+}
+
+.start:hover {
+    background-color: white;
+}
